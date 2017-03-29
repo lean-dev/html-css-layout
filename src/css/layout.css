@@ -1,1 +1,13 @@
-/* Your starting point. Enjoy the ride. */
+td {
+    vertical-align: top;
+}
+
+/* Bring back the colum styles */
+
+td > * {
+    background-color: #d1d1d1;
+    padding: 0.5em;
+    border: 1px solid #818181;
+    border-radius: 4px;
+    margin: 1em 0.5em;
+}
