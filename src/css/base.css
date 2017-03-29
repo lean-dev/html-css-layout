@@ -1,0 +1,40 @@
+
+/* Root stylings */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Remove heading margins */
+h1,h2 {
+    margin: 0;
+}
+
+/* Header and footer rules */
+.page {
+    background-color: #313131;
+    color: #fff;
+    height: 72px;
+    line-height: 72px;
+    padding: 0 2em;
+}
+footer.page {
+    text-align: center;
+}
+
+/* Main rules */
+main {
+    padding: 1em;
+    margin: 8px 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Column rules */
+main > * {
+    background-color: #d1d1d1;
+    padding: 0.5em;
+    border: 1px solid #818181;
+    border-radius: 4px;
+    margin: 1em 0;
+}
