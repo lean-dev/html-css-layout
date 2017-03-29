@@ -1,9 +1,4 @@
-# HTML CSS Layout
+# HTML Table Layout
 
-Achieving a simple three column layout. This ist not about the holy grail (see https://en.wikipedia.org/wiki/Holy_Grail_(web_design) ).
+Trash your semantic html, change to table, table rows and columns and you are done. But: no semantics. Just a no-go today!
 
-## Goals
-
-- Three columns for aside.left, section.main, aside.right
-- Widths approximatly 20%, 60%, 20%
-- Small gutter in between the columns
