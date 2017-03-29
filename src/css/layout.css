@@ -1,1 +1,19 @@
-/* Your starting point. Enjoy the ride. */
+
+/* "Rebuild" html table layout */
+.table { 
+    display: table;
+}
+main {
+    display: table-row;
+}
+main > * {
+    display: table-cell;
+}
+
+/* Column sizes */
+.left, .right {
+    width: 20%;
+}
+.main {
+    width: 60%;
+}
